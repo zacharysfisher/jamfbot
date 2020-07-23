@@ -195,7 +195,7 @@ Now we get to create our functions that are going to be doing all the work for t
 	- make sure `Enabled Trigger` is checked and hit `Add`.
 	
 	
-## Update URLs in Slack &Kappa;
+## Update URLs in Slack App
 We will now add our API Endpoint URLs in our Slack app so it knows where it send requests.
 
 1. go to `https://api.slack.com/apps`
