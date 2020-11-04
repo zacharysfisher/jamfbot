@@ -4,7 +4,7 @@
 This page will explain how to configure a Jamf bot for slack to query your JAMF Pro server.  
 
 
-# A big thanks to [taniacomputer](https://www.taniacomputer.com/) (who built this and showed it at JNUC 2019) and to WooSai (in MacAdminSlack) who helped me figure out all the moving parts.
+### A big thanks to [taniacomputer](https://www.taniacomputer.com/) (who built this and showed it at JNUC 2019) and to WooSai (in MacAdminSlack) who helped me figure out all the moving parts.
 
 
 ## Requirements
