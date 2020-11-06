@@ -23,6 +23,7 @@ This page will explain how to configure a Jamf bot for slack to query your JAMF 
 * Setup AWS Secret Manager in AWS
 * Setup AWS SNS Topics
 * AWS Lambda Function Setup
+* Adding custom Extension Attributes to More Info
 
 ## Slack App Setup
 This step will have us setup out Slackbot/Application that will communicate with AWS Lambda for our Jamf Searches.
@@ -211,6 +212,11 @@ We will now add our API Endpoint URLs in our Slack app so it knows where it send
 
 ## Usage
 You can now test the bot in your slack channel by typing `/jamf` and hitting return.  It should give you a help page.
+
+## Adding custom Extension Attributes to More Info
+To add other information or extension attribute information to the more info query, change the name of the extension attribute to include `slack - `.  When you hit the more info, you will see the information.  If you would like to customize how that information is displayed in slack, within the `<result></result> you can different slack emoji's to add that to the response.  See below for example:
+
+		```echo "<result>:white_check_mark:Password Synced</result>"```
 
 
 
